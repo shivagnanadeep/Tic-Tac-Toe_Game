@@ -1,0 +1,72 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color:#0fc1d9;
+    text-align:center;
+}
+.game-title{
+    font-family: "Roboto";
+    font-size:28px;
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin; 
+}
+.box{
+    background-color: #ffffc7;
+    height:18vmin;
+    width:18vmin;
+    border-radius:14%;
+    box-shadow:7px 7px 1rem rgba(0,0,0,0.1);
+    font-size:8vmin;
+    color:#e79810;
+    border:none
+}
+#reset-btn{
+    height:8vmin;
+    width:16vmin;
+    border-radius:6vmin;
+    border:1px solid black;
+    font-weight:bolder;
+    font-size:2vmin;
+    background-color:#191913;
+    color:white;
+}
+#new-btn{
+    height:8vmin;
+    width:16vmin;
+    border-radius:6vmin;
+    border:1px solid black;
+    font-weight:bolder;
+    font-size:2vmin;
+    background-color:#191913;
+    color:white;
+}
+#msg{
+    font-size:8vmin;
+    color: #ffffc7;
+}
+.msg-container{
+    height: 100vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide{
+    display:none;
+}
